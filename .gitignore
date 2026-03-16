@@ -1,0 +1,52 @@
+# Build directories
+/build/
+/cmake-build-*/
+
+# CMake files
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/compile_commands.json
+/CTestTestfile.cmake
+/Testing/
+/Makefile
+
+# Built binaries
+/mfsk_tx
+/mfsk_rx
+/mfsk_trx
+/mfsk_encode
+/mfsk_symb
+/mfsk_test
+/rate_check
+/peakrms
+/addnoise
+/addcarr
+
+# Legacy/local build outputs
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Project-generated logs and raw audio
+*.log
+*.sw
+
+# Archives
+*.tgz
+*.tar.gz
+*.zip
+
+# Editor/OS noise
+*~
+*.swp
+*.swo
+.DS_Store
+.idea/
+.vscode/
